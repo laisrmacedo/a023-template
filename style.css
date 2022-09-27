@@ -2,3 +2,61 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    height: 50px;
+    align-items: center;
+    border: 2px solid darkgray;
+    background-color: orange;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    background-color: cadetblue;
+    flex-grow: 3;
+    /* display: flex; */
+}
+
+section{
+    display: flex;
+}
+
+#magenta{
+    background-color: magenta;
+    width: 20vw;
+}
+
+#azul{
+    background-color: blue;
+    width: 60vw;
+}
+
+#verde{
+    background-color: green;
+    width: 20vw;
+}
+
+#figuras{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+figure{
+    width: 160px;
+    border: 10px solid white;
+    background-color: white;
+    text-align: center;
+}
+
+footer{
+    background-color: dodgerblue;
+}
